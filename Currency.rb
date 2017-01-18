@@ -12,3 +12,7 @@ class Currency
     @code
   end
 end
+
+def equals?(a,b)
+  (a.amount == b.amount) && (a.code == b.code)
+end

@@ -1,7 +1,7 @@
 require './Currency.rb'
 
-dollabillz = Currency.new(amount:10.0, code:'USD')
-quid = Currency.new(amount:15, code:'GBP')
+dollabillz = Currency.new(amount:15.0, code:'USD')
+quid = Currency.new(amount:15.0, code:'GBP')
 
 puts dollabillz.amount
 puts dollabillz.code
